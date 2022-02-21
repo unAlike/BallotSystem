@@ -1,6 +1,5 @@
 from copy import copy
 import csv
-from lib2to3.pgen2.token import NEWLINE
 import math
 from datetime import date
 from os import remove
@@ -9,9 +8,6 @@ import os
 import datetime as dt
 
 
-
-
-        
 def sort(e):
     return e[1]
 
@@ -19,8 +15,6 @@ def printw(string):
     f.write(string)
     f.write("\n")
     print(string)
-
-
 
 dballots = []
 running = True
